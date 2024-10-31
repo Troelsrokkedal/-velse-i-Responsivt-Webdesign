@@ -155,29 +155,41 @@ footer {
     /* Header */
     header {
         /* Set the background color to white */
+        background-color: white;
         
     }
 
     /* Body */
     body {
         /* Set background color to a light gray (whitesmoke) */
+        background-color: whitesmoke;
         
     }
 
     /* Images */
     #dumperimg {
         /* Set width to 60%, padding of 2%, float to right, and clear to right */
+        width: 60%;
+        padding: 2%;
+        float: right;
+        clear: right;
       
     }
 
     #trumpimg, #designskoleimg {
         /* Set width to 60%, padding of 2%, float to the left and clear to left */
-       
+        width: 60%;
+        padding: 2%;
+        float: left;
+        clear: left;
     }
 
     #designskoleimg {
         /* Set width to 60%, padding of 2%, float to the right and clear to right */
-       
+        width: 60%;
+        padding: 2%;
+        float: right;
+        clear: right;
     }
 
 
@@ -185,7 +197,7 @@ footer {
     /* Logo */
     #logo2 {
         /* Set max-width to 60px */
-        
+        max-width: 60px;
     }
 }
 
