@@ -211,29 +211,38 @@ footer {
             /* Set background color to black and height to 30px */
             /* background-color: ___; */
             /* height: ___; */
+            background-color: black;
+            height: 30px;
+
         }
     
         /* Body */
         body {
             /* Set background color to white */
             /* background-color: ___; */
+            background-color: white;
+
         }
     
         /* Navigation */
         #navigation-icon {
             /* Hide navigation icon */
             /* display: ___; */
+            display: none;
         }
     
         #navigation-desktop {
             /* Show desktop navigation (hint value Display: block) and align text to the right */
             /* display: ___; */
             /* text-align: ___; */
+            display: block;
+            text-align: right;
         }
     
         #navigation-desktop li {
             /* Display items inline */
             /* display: ___; */
+            display: inline;
         }
     
         #navigation-desktop li a {
@@ -243,11 +252,17 @@ footer {
             /* font-size: ___; */
             /* margin: ___; */
             /* padding: ___; */
+            color: white;
+            text-decoration: none;
+            font-size: 1,6rem;
+            margin: 2%;
+            padding: 2%;
         }
     
         #navigation-desktop li a:hover {
             /* Set underline on hover */
             /* text-decoration: ___; */
+            text-decoration: underline;
         }
     
         #navigation-mobile {
@@ -264,6 +279,8 @@ footer {
         /* Footer */
         footer {
             /* Set background color to black and text color to white */
+            background-color: black;
+            color: white;
             
         }
     
